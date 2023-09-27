@@ -8,7 +8,7 @@
 ->to remove the even numbers from the array and print the resulting array.
 */ 
 
-$numbers = range(1, 10);
+$numbers = [1,2,3,4,5,6,7,8,9,10];
 
 function removeEven($numb) {
     $oddNumbers = [];
